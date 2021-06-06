@@ -1,4 +1,6 @@
 setInterval(function () {
   var currentDate = new Date();
-  var time = currentDate.toLocaleTimeString();
+  var hours = currentDate.getHours();
+  var minutes = currentDate.getMinutes();
+  var seconds = currentDate.getSeconds();
 });
